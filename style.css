@@ -1,3 +1,33 @@
 body {
     background-color: #305e86;
 }
+
+@font-face {
+    font-family: 'Chinese Rocks';
+    src: url(./font/chinese-rocks.otf);
+}
+
+* {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.main-text,
+.subtext {
+    color: wheat;
+    font-family: 'Chinese Rocks';
+}
+
+.main-text {
+    font-size: 64px;
+}
+
+.subtext {
+    font-size: 40px;
+}
+
+.left-align {
+    text-align: left;
+}
